@@ -1,0 +1,105 @@
+{
+  "type": "object",
+  "properties": {
+    "user": {
+      "type": "object",
+      "properties": {
+        "firstname": {
+          "type": "string",
+          "faker": "lorem.word"
+        },
+        "lastname": {
+          "type": "string",
+          "faker": "lorem.word"
+        },
+        "lang": {
+          "type": "string",
+          "faker": "lorem.word"
+        },
+        "uuid": {
+          "type": "string",
+          "faker": "lorem.word"
+        },
+        "email": {
+          "type": "string",
+          "faker": "internet.email"
+        },
+        "intercom_hash": {
+          "type": "string",
+          "faker": "lorem.word"
+        },
+        "dashboard": {
+          "type": "string",
+          "faker": "lorem.word"
+        },
+        "account": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "faker": "lorem.word"
+            },
+            "picture": {
+              "type": "string",
+              "faker": "random.number"
+            },
+            "url": {
+              "type": "string",
+              "faker": "lorem.word"
+            },
+            "context": {
+              "type": "string",
+              "faker": "lorem.word"
+            }
+          }
+        },
+        "addresses": {
+          "type": "array",
+          "minItems": 0
+        },
+        "cards": {
+          "type": "array",
+          "minItems": 0
+        },
+        "camps": {
+          "type": "array",
+          "minItems": 8,
+          "items": {
+            "type": "object",
+            "properties": {
+              "camp_name": {
+                "type": "string",
+                "faker": "lorem.word"
+              },
+              "media": {
+                "type": "object",
+                "properties": {}
+              },
+              "camp_slug": {
+                "type": "string",
+                "faker": "lorem.word"
+              }
+            }
+          }
+        },
+        "max_camp_role": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "faker": "lorem.word"
+            },
+            "template": {
+              "type": "string",
+              "faker": "lorem.word"
+            }
+          }
+        }
+      }
+    },
+    "username": {
+      "type": "string",
+      "faker": "lorem.word"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "user": {
+    "id": 1,
+    "user_id": 1,
+    "firstname": "Mason",
+    "lastname": "Sanchez",
+    "birthday": null,
+    "gender": null,
+    "civility": null,
+    "headline": null,
+    "info": null,
+    "media_id": 0,
+    "activity_type": 0,
+    "activity": "",
+    "city": "",
+    "country": "",
+    "website": "",
+    "google": "",
+    "lang": "fr",
+    "uuid": "1ffa156e-7981-5165-b9c9-c9dae96bca5d",
+    "email": "userdemo1@myskillcamp.com",
+    "created_at": 1473431097000,
+    "intercom_hash": "894e23804bdb6abee49870951f69f286f850d3879b7f40bc6510d78d517a888f",
+    "persona_id": 1,
+    "dashboard": "student",
+    "pinned_camps": null,
+    "create_camp": true,
+    "account": {
+      "id": 1,
+      "name": "Mason Sanchez",
+      "picture": "https:\/\/static.myskillcamp.com\/images\/msc_custom\/avatar_c-02.svg",
+      "last_connection": 1508855589000,
+      "url": "Mason.Sanchez.1",
+      "headline": null,
+      "context": "user",
+      "context_id": 1
+    },
+    "addresses": [],
+    "cards": [],
+    "camps": [{
+      "camp_id": 1,
+      "camp_name": "Camp de Manon S",
+      "media": {
+        "id": "",
+        "url": "",
+        "type": ""
+      },
+      "camp_slug": "TTlSRnZZQlVWYkFZSFBBa1B0QmtXUT09"
+    }, {
+      "camp_id": 2,
+      "camp_name": "Camp de Manon S",
+      "media": {
+        "id": "",
+        "url": "",
+        "type": ""
+      },
+      "camp_slug": "Qi9EaCtmeXR5NVZvVnYrQzdjQ1Rkdz09"
+    }, {
+      "camp_id": 4,
+      "camp_name": "Conversations",
+      "media": {
+        "id": "",
+        "url": "",
+        "type": ""
+      },
+      "camp_slug": "Umd3cTVzNnl6UWQvTG44RWxZOFFqQT09"
+    }, {
+      "camp_id": 5,
+      "camp_name": "test",
+      "media": {
+        "id": "",
+        "url": "",
+        "type": ""
+      },
+      "camp_slug": "OURXaXI1L0pYTlNqNW1mcTdFVTM5QT09"
+    }, {
+      "camp_id": 6,
+      "camp_name": "Tableau de bord",
+      "media": {
+        "id": "",
+        "url": "",
+        "type": ""
+      },
+      "camp_slug": "ZURaMzhYaUtYREJ5bXZRWGFzVSt2QT09"
+    }, {
+      "camp_id": 7,
+      "camp_name": "Tableau de bord",
+      "media": {
+        "id": "",
+        "url": "",
+        "type": ""
+      },
+      "camp_slug": "OHc0RGJpblZCVDdROGJ3amo0b3ZTQT09"
+    }, {
+      "camp_id": 12,
+      "camp_name": "Tableau de bord",
+      "media": {
+        "id": "",
+        "url": "",
+        "type": ""
+      },
+      "camp_slug": "a3FvWFRIQy9vS3ZrcjV3MCsybitDdz09"
+    }, {
+      "camp_id": 21,
+      "camp_name": "app.dashboarazeazed.title",
+      "media": {
+        "id": "",
+        "url": "",
+        "type": ""
+      },
+      "camp_slug": "Y2xic3pwYTZZWEs4UHIvVzFRR0dldz09"
+    }],
+    "has_collab": true,
+    "max_camp_role": {
+      "id": 4,
+      "level": 1,
+      "name": "owner",
+      "template": "admin",
+      "show_campus": 1,
+      "edit_campus": 1,
+      "delete_campus": 1,
+      "show_user": 1,
+      "add_user": 1,
+      "manage_user": 1,
+      "delete_user": 1,
+      "show_group": 1,
+      "create_group": 1,
+      "edit_group": 1,
+      "delete_group": 1,
+      "manage_course": 1,
+      "manage_correction": 1,
+      "export_data": 1,
+      "add_news": 1,
+      "send_mail": 1,
+      "add_catalogue": 1,
+      "manage_catalogue": 1,
+      "active": 1,
+      "group_all": 1,
+      "group_list": 1,
+      "group_read": 1,
+      "group_insert": 1,
+      "group_update": 1,
+      "group_delete": 1,
+      "group_member_list": 1,
+      "group_member_insert": 1,
+      "group_member_update": 1,
+      "group_member_delete": 1,
+      "group_course_list": 1,
+      "group_course_insert": 1,
+      "group_course_update": 1,
+      "group_course_delete": 1,
+      "camp_read": 1,
+      "camp_update": 1,
+      "camp_delete": 1,
+      "camp_member_all": 1,
+      "camp_member_list": 1,
+      "camp_member_read": 1,
+      "camp_member_insert": 1,
+      "camp_member_update": 1,
+      "camp_member_delete": 1,
+      "camp_course_all": 1,
+      "camp_course_list": 1,
+      "camp_course_read": 1,
+      "camp_course_insert": 1,
+      "camp_course_update": 1,
+      "camp_course_delete": 1,
+      "camp_catalogue_all": 1,
+      "camp_catalogue_list": 1,
+      "camp_catalogue_insert": 1,
+      "camp_catalogue_update": 1,
+      "camp_catalogue_delete": 1,
+      "course_member_list": 1,
+      "course_member_insert": 1,
+      "course_member_update": 1,
+      "course_member_delete": 1,
+      "course_group_list": 1,
+      "course_group_insert": 1,
+      "course_group_update": 1,
+      "course_group_delete": 1,
+      "course_correction_list": 1,
+      "course_correction_read": 1,
+      "course_correction_update": 1,
+      "course_correction_delete": 1,
+      "statistic_read": 1,
+      "statistic_export": 1,
+      "camp_plan_read": 1,
+      "camp_plan_update": 1,
+      "camp_billing_read": 1,
+      "camp_billing_export": 1,
+      "camp_profile_read": 1,
+      "camp_profile_update": 1,
+      "collaborate": 1,
+      "publish_in_market": 1,
+      "camp_settings": 1
+    }
+  },
+  "username": "Mason.Sanchez.1"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "json-to-jsf",
+  "version": "0.1.0",
+  "description": "Generate json-schema-faker from real json data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmrs/json-to-jsf.git"
+  },
+  "keywords": [
+    "jsf",
+    "json-schema-faker",
+    "json",
+    "generator"
+  ],
+  "author": "dsmrs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsmrs/json-to-jsf/issues"
+  },
+  "homepage": "https://github.com/dsmrs/json-to-jsf#readme",
+  "dependencies": {
+    "@types/validator": "^6.3.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "validator": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "typescript": "^2.5.3"
+  }
+}
